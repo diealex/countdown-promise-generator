@@ -2,6 +2,7 @@ import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+import imgCloseUrl from '../img/close-octagon.svg';
 
 const StartBtn = document.querySelector('[data-start]');
 const input = document.querySelector('#datetime-picker');
@@ -40,7 +41,7 @@ flatpickr('#datetime-picker', {
         progressBar: true,
         progressBarColor: '#B51B1B',
         position: 'topRight',
-        iconUrl: 'img/close-octagon.svg',
+        iconUrl: imgCloseUrl,
       });
     }
   },
