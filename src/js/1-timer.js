@@ -40,7 +40,7 @@ flatpickr('#datetime-picker', {
         progressBar: true,
         progressBarColor: '#B51B1B',
         position: 'topRight',
-        iconUrl: '/img/close-octagon.svg',
+        iconUrl: '../img/close-octagon.svg',
       });
     }
   },
